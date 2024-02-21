@@ -96,7 +96,8 @@ footer {
     background-color: orange;
 }
 
-/* Media Quiery: larger screens*/
+
+/* Media Query: larger screens*/
 @media screen and (min-width:768px) {
     /*Header*/
     nav {
