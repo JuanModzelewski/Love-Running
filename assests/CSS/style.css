@@ -57,6 +57,7 @@ h1 {
 
 .active {
     border-bottom: solid #252525 1px;
+    font-weight: bold;
 }
 
 /* Navbar styles with dropdown*/
@@ -139,14 +140,27 @@ main {
     main {
         margin-top: 75px;
     }
+
+    #social-networks {
+        text-align: center;
+        padding: 20px 0;
+        display: flex;
+        width:70%;
+        list-style-type: none;
+    }
+    
+    footer {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media screen and (min-width:992px) {
         /*Header*/
 
-        #menu a:hover {
-            border-bottom: solid 1px #252525;
-            color: black;
-            font-weight:bold;
-        }
+    #menu a:hover {
+    border-bottom: solid 1px #252525;
+    color: black;
+    font-weight:bold;
+    }
 }
