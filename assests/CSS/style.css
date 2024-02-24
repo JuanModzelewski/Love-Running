@@ -203,7 +203,7 @@ main {
 /*Gallery Page*/
 #photos img {
     width: 100%;
-    line-height: 1rem;
+    line-height: 1em;
 }
 
 #photos {
@@ -355,6 +355,7 @@ main {
     #photos {
         column-count: 3;
         column-gap: 0;
+        flex: 1;
     }
 
     /*Signup Form*/
