@@ -275,6 +275,20 @@ main {
         column-count: 2;
         column-gap: 0;
     }
+
+    #signup {
+        background-position: 50% center;
+        position: relative;
+        padding: 0;
+        height: 100%;
+        
+    }
+
+    #signup-form {
+        position: relative;
+        margin: 10% 0 10% 10%;
+        max-width: 400px;
+    }
 }
 
 /* Media Query: larger screens*/
@@ -369,7 +383,7 @@ main {
 
     #signup-form {
         position: relative;
-        margin: 150px  0 20% 20%;
+        margin: 20% 0 20% 20%;
         max-width: 400px;
     }
 
