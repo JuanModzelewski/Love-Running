@@ -363,12 +363,13 @@ main {
         background-position: 50% center;
         position: relative;
         padding: 0;
+        height: 100%;
+        
     }
 
     #signup-form {
-        position: absolute;
-        margin-top: 150px;
-        margin-left: 20%;
+        position: relative;
+        margin: 150px  0 20% 20%;
         max-width: 400px;
     }
 
